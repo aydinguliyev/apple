@@ -196,12 +196,17 @@ input[placeholder] {
 }
 
 input[type="submit"] {
+  cursor: pointer;
   padding: 10px 30px;
   color: #fff;
   background-color: #4aaaa5;
   border: none;
   font-size: 18px;
   margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #73c2be;
 }
 
 .input-title {

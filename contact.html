@@ -37,13 +37,19 @@
     <main>
       <div class="main-container">
         <h3>Contact</h3>
-        <div class="input-title">Name</div>
-        <input type="text" placeholder="Aydin Guliyev" />
-        <div class="input-title">E-mail</div>
-        <input type="email" placeholder="aydin.guliyev@gmail.com" />
-        <div class="input-title">Message</div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" />
+        <form action="form">
+          <div class="input-title">Name</div>
+          <input type="text" placeholder="Aydin Guliyev" required="required" />
+          <div class="input-title">E-mail</div>
+          <input
+            type="email"
+            placeholder="aydin.guliyev@gmail.com"
+            required="required"
+          />
+          <div class="input-title">Message</div>
+          <textarea name="textarea" required="required"></textarea>
+          <input type="submit" />
+        </form>
       </div>
       <div class="navbar">
         <p class="navbar-connect">Connect with</p>
